@@ -53,8 +53,8 @@ body {
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
+	/* width: 374px; useless ?
+	height: 329px; */
 	position: absolute;
 	bottom: 0;
 	left: 0;
