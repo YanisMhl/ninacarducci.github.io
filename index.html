@@ -81,19 +81,42 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwata.webp"
-							alt="Photo de Ryoji Iwata traversant un passage piéton" class="d-block w-100">
+						<img 
+							srcset="
+								./assets/images/slider/ryoji-iwata_1440x666.webp 1440w,
+								./assets/images/slider/ryoji-iwata_1180x545.webp 1180w,
+								./assets/images/slider/ryoji-iwata_999x462.webp 999w"
+							sizes="(max-width: 999px) 999px, (max-width: 1180px) 1180px, 1440px"
+							src="./assets/images/slider/ryoji-iwata_1440x666.webp"
+							alt="Photo de Ryoji Iwata traversant un passage piéton"	
+							class="d-block w-100">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/nicholas-green.webp"
-							alt="Photo de Nicholas Green en fosse lors d'un concert" class="d-block w-100"
+						<img 
+							srcset="
+								./assets/images/slider/nicholas-green_1440x666.webp 1440w,
+								./assets/images/slider/nicholas-green_1180x545.webp 1180w,
+								./assets/images/slider/nicholas-green_999x462.webp 999w"
+							sizes="(max-width: 999px) 999px, (max-width: 1180px) 1180px, 1440px"
+							src="./assets/images/slider/nicholas-green_1440x666.webp"
+							alt="Photo de Nicholas Green en fosse lors d'un concert"
+							class="d-block w-100"
 							loading="lazy">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/edward-cisneros.webp"
-							alt="Photo d'Edward Cisneros lors d'un mariage " class="d-block w-100" loading="lazy">
+						<img 
+							srcset="
+								./assets/images/slider/edward-cisneros_1440x666.webp 1440w,
+								./assets/images/slider/edward-cisneros_1180x545.webp 1180w,
+								./assets/images/slider/edward-cisneros_999x462.webp 999w"
+							sizes="(max-width: 999px) 999px, (max-width: 1180px) 1180px, 1440px"
+							src="./assets/images/slider/edward-cisneros_1440x666.webp"
+							alt="Photo d'Edward Cisneros lors d'un mariage"
+							class="d-block w-100"
+							loading="lazy">
 					</div>
 				</div>
+				
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
 					data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
